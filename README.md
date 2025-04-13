@@ -82,6 +82,7 @@ Contains sample user credentials for demonstration.
 ---
 
 ## 📁 Folder Structure  
+```
 ├── .settings/ # Project settings folder
 ├── WebContent/ # Web-related resources (HTML, JSP, etc.)
 ├── build/classes/ # Compiled Java classes
@@ -91,8 +92,7 @@ Contains sample user credentials for demonstration.
 ├── .gitignore # Git ignored files
 ├── .project # Eclipse project configuration
 └── README.md # Project documentation
-
----
+```
 
 ## 🚀 Getting Started  
 
