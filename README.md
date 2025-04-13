@@ -82,18 +82,15 @@ Contains sample user credentials for demonstration.
 ---
 
 ## 📁 Folder Structure  
-📁 Folder Structure
-pgsql
-Copy
-Edit
-├── database/
-│   └── database.sql         # Sample DB schema & data
-├── index.html               # Landing/Login page
-├── login.php                # Vulnerable login handler
-├── success.php              # Redirect page on successful login
-├── config.php               # DB connection script
-└── README.md                # Project documentation
-
+├── .settings/ # Project settings folder
+├── WebContent/ # Web-related resources (HTML, JSP, etc.)
+├── build/classes/ # Compiled Java classes
+├── others/ # Additional tools/utilities
+├── src/ # Java source code files
+├── .classpath # Eclipse classpath configuration
+├── .gitignore # Git ignored files
+├── .project # Eclipse project configuration
+└── README.md # Project documentation
 
 ---
 
