@@ -1,33 +1,35 @@
-#📌 Introduction
-This project is a beginner-friendly lab that simulates SQL Injection vulnerabilities in web applications. Built using Java, JSP, and MySQL, it demonstrates how insecure coding practices can expose login systems to malicious database queries. The simulation helps students, developers, and security enthusiasts understand the importance of secure coding and how to prevent common web attacks.
+# 🛡️ SQL Injection Simulation Lab
 
-#🔍 Overview
+## 📌 Introduction  
+This project is a beginner-friendly lab that simulates **SQL Injection vulnerabilities** in web applications. Built using **Java, JSP, and MySQL**, it demonstrates how insecure coding practices can expose login systems to malicious database queries. The simulation helps students, developers, and security enthusiasts understand the importance of secure coding and how to prevent common web attacks.
+
+---
+
+## 🔍 Overview  
 SQL Injection is one of the most common application-layer attack vectors. This project creates a simple yet effective web application that allows users to simulate both vulnerable and secure login systems, observe how attacks work, and understand how to prevent them.
 
-#🧰 Tools & Technologies
-IDE: Eclipse
+---
 
-Backend: Java (JSP/Servlet)
+## 🧰 Tools & Technologies  
+- **IDE**: Eclipse  
+- **Backend**: Java (JSP/Servlet)  
+- **Database**: MySQL  
+- **Server**: Apache Tomcat  
 
-Database: MySQL
+---
 
-Server: Apache Tomcat
+## 🏗️ Project Architecture  
+The system is divided into three layers:  
+- **UI Layer**: Front-end login interface  
+- **Logic Layer**: Handles request processing  
+- **Database Layer**: Communicates with MySQL for credential validation  
 
-#🏗️ Project Architecture
-The system is divided into three layers:
-
-UI Layer: Front-end login interface
-
-Logic Layer: Handles request processing
-
-Database Layer: Communicates with MySQL for credential validation
-
-#Architecture
+# Architecture
 -------------
 Setting up 3 layers: UI, Logical, and DB<br/>
 ![alt architecture](https://github.com/mndarren/SQL-Injection-Simulation-Project/blob/master/others/architecture.PNG)
 
-#Example
+# Example
 --------
 1. Original page<br/>
 ![alt orig](https://drive.google.com/file/d/10K4H-Gzgn8YmZHLOjb9jCtUb_K0Bq03-/view?usp=sharing)
@@ -46,9 +48,10 @@ Setting up 3 layers: UI, Logical, and DB<br/>
 8. Test case 8(Common user login)<br/>
 ![alt test8](https://github.com/mndarren/SQL-Injection-Simulation-Project/blob/organize_code/others/test8.PNG)
 
-#📁 Folder Structure
+# 📁 Folder Structure
 
----
+```
+
 ├── .settings/                # Project settings folder  
 ├── WebContent/               # Web-related resources (HTML, JSP)  
 ├── build/classes/            # Compiled Java classes  
@@ -58,14 +61,14 @@ Setting up 3 layers: UI, Logical, and DB<br/>
 ├── .gitignore                # Git ignored files  
 ├── .project                  # Eclipse project config  
 └── README.md                 # Project documentation
----
 
-#⚙️ How to Run
-Clone the Repository
+```
 
----
-git clone https://github.com/mndarren/SQL-Injection-Simulation-Project.git
----
+# ⚙️ How to Run  
+
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/mndarren/SQL-Injection-Simulation-Project.git
 
 Import into Eclipse
 
@@ -77,13 +80,13 @@ Update the MySQL connection string and credentials.
 
 Run on Apache Tomcat Server
 
-📝 Notes
+# 📝 Notes
 MySQL scripts are available in the others/ folder.
 
 Make sure MySQL is running and properly configured before starting the project.
 
 The project is educational and should not be used in production environments.
 
-📜 License
+# 📜 License
 This project is intended for educational use only and is distributed under the MIT License.
 
