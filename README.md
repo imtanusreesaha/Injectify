@@ -83,15 +83,16 @@ Contains sample user credentials for demonstration.
 
 ## 📁 Folder Structure  
 ```
-├── .settings/ # Project settings folder
-├── WebContent/ # Web-related resources (HTML, JSP, etc.)
-├── build/classes/ # Compiled Java classes
-├── others/ # Additional tools/utilities
-├── src/ # Java source code files
-├── .classpath # Eclipse classpath configuration
-├── .gitignore # Git ignored files
-├── .project # Eclipse project configuration
-└── README.md # Project documentation
+├──SQL Injection Simulation Lab
+  ├── .settings/ # Project settings folder
+  ├── WebContent/ # Web-related resources (HTML, JSP, etc.)
+  ├── build/classes/ # Compiled Java classes
+  ├── others/ # Additional tools/utilities
+  ├── src/ # Java source code files
+  ├── .classpath # Eclipse classpath configuration
+  ├── .gitignore # Git ignored files
+  ├── .project # Eclipse project configuration
+  └── README.md # Project documentation
 ```
 
 ## 🚀 Getting Started  
