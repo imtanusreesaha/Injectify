@@ -33,7 +33,7 @@ Setting up 3 layers: UI, Logical, and DB<br/>
 --------
 ### 🔒 Test with and without Protection:
 
-1. ![Original Login Page]([others/test_orig.png](https://github.com/imtanusreesaha/SQL-Injection-Simulation-Lab/blob/main/SQL%20Injection%20Simulation%20Lab/test_orig.png))
+1. ![Original Login Page](https://github.com/imtanusreesaha/SQL-Injection-Simulation-Lab/blob/main/SQL%20Injection%20Simulation%20Lab/test_orig.png?raw=true)
 
 2. Test case 1 (without protection)<br/>
 ![alt test1](https://github.com/mndarren/SQL-Injection-Simulation-Project/blob/organize_code/others/test1.PNG)
