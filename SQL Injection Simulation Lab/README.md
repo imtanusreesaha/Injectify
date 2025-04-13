@@ -31,9 +31,10 @@ Setting up 3 layers: UI, Logical, and DB<br/>
 
 # Example
 --------
-1. Original page<br/>
-![alt orig](others/test_orig.png)
-)
+### 🔒 Test with and without Protection:
+
+1. ![Original Login Page](others/test_orig.png)
+
 2. Test case 1 (without protection)<br/>
 ![alt test1](https://github.com/mndarren/SQL-Injection-Simulation-Project/blob/organize_code/others/test1.PNG)
 3. Test case 2 (without protection)(password is the same to user name)<br/>
