@@ -32,7 +32,8 @@ Setting up 3 layers: UI, Logical, and DB<br/>
 # Example
 --------
 1. Original page<br/>
-![alt orig](https://drive.google.com/file/d/10K4H-Gzgn8YmZHLOjb9jCtUb_K0Bq03-/view?usp=sharing)
+![alt orig](![test_orig](https://github.com/user-attachments/assets/88a6cf89-9963-415c-995b-0c0475ccf8d1)
+)
 2. Test case 1 (without protection)<br/>
 ![alt test1](https://github.com/mndarren/SQL-Injection-Simulation-Project/blob/organize_code/others/test1.PNG)
 3. Test case 2 (without protection)(password is the same to user name)<br/>
